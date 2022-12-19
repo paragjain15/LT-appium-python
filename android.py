@@ -20,6 +20,7 @@ desired_caps = {
         "visual": True,
         "video": True
 	}
+    }
 
    
 
