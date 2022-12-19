@@ -6,9 +6,9 @@ import time
 import os
 
 desired_caps = {
-    "deviceName": "Galaxy S20",
+    "deviceName": "Galaxy S21 5G",
     "platformName": "Android",
-    "platformVersion": "10",
+    "platformVersion": "11",
     "app": "lt://APP10160551841662018882237913",  # Enter app_url here
     "isRealMobile": True,
     "build": "Python Vanilla Android",
