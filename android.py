@@ -5,7 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 import os
 
-build_name = os.environ.get(LT_BUILD_NAME)
+# build_name = os.environ.get(LT_BUILD_NAME)
 # build_name = "Hello"
 
 desired_caps = {
@@ -16,7 +16,6 @@ desired_caps = {
             "platformVersion": "11",
             "app": "lt://APP10160551841662018882237913",  # Enter app_url here
             "isRealMobile": True,
-            "build": build_name,
             "name": "Sample Test - Python",
             "network": True,
             "visual": True,
