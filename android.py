@@ -5,7 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 import os
 
-build_name = os.environ.get($LT_BUILD_NAME)
+build_name = os.environ.get("LT_BUILD_NAME")
 # build_name = "Hello"
 
 desired_caps = {
