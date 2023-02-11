@@ -21,7 +21,8 @@ desired_caps = {
             "name": "Sample Test - Python",
             "network": True,
             "visual": True,
-            "video": True
+            "video": True,
+	    "tunnel": True
 	}
     }
 
