@@ -5,7 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 import os
 
-build_name = os.environ.get("bamboo_LT_BUILDNAME")
+build_name = os.environ.get("bamboo_LT_BUILD_NAME")
 # build_name = "test-app"
 # build_name = "Hello"
 
@@ -22,7 +22,7 @@ desired_caps = {
             "network": True,
             "visual": True,
             "video": True,
-	    "tunnel": True
+	    # "tunnel": True
 	}
     }
 
