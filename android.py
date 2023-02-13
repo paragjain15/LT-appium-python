@@ -6,6 +6,7 @@ import time
 import os
 
 build_name = os.environ.get("bamboo_LT_BUILD_NAME")
+tunnelName = os.environ.get("bamboo_LT_TUNNEL_NAME")
 # build_name = "test-app"
 # build_name = "Hello"
 
@@ -18,6 +19,8 @@ desired_caps = {
             "app": "lt://APP10160551841662018882237913",  # Enter app_url here
             "isRealMobile": True,
 	    "build" : build_name,
+		"tunnel":true,
+		"tunnelName":tunnelName,
             "name": "Sample Test - Python",
             "network": True,
             "visual": True,
