@@ -18,14 +18,13 @@ desired_caps = {
             "platformVersion": "11",
             "app": "lt://APP10160551841662018882237913",  # Enter app_url here
             "isRealMobile": True,
-	    "build" : build_name,
-		"tunnel":true,
-		"tunnelName":tunnelName,
+	        "build" : build_name,
+		    "tunnel": True,
+		    "tunnelName":tunnelName,
             "name": "Sample Test - Python",
             "network": True,
             "visual": True,
             "video": True,
-	    # "tunnel": True
 	}
     }
 
