@@ -5,7 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 import os
 
-build_name = os.environ.get("bamboo_buildResultKey") or "test_python"
+build_name = os.environ.get("bamboo_LT_BUILDNAME")
 # build_name = "test-app"
 # build_name = "Hello"
 
@@ -30,16 +30,16 @@ desired_caps = {
 
 
 def startingTest():
-    if os.environ.get("LT_USERNAME") is None:
+    if os.environ.get("bamboo_LT_USERNAME") is None:
         # Enter LT username here if environment variables have not been added
         username = "username"
     else:
-        username = os.environ.get("LT_USERNAME")
-    if os.environ.get("LT_ACCESS_KEY") is None:
+        username = os.environ.get("bamboo_LT_USERNAME")
+    if os.environ.get("bamboo_LT_ACCESS_KEY") is None:
         # Enter LT accesskey here if environment variables have not been added
         accesskey = "accesskey"
     else:
-        accesskey = os.environ.get("LT_ACCESS_KEY")
+        accesskey = os.environ.get("bamboo_LT_ACCESS_KEY")
 
     try:
         driver = webdriver.Remote(desired_capabilities=desired_caps, command_executor="https://" +
