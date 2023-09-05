@@ -1,7 +1,7 @@
 import time
 import os
 
-from Appium import webdriver
+from appium import webdriver
 build_name = os.getenv("LT_BUILD_NAME")
 print(build_name)
 
