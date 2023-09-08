@@ -10,7 +10,7 @@ build_name = os.getenv("LT_BUILD_NAME")
 print(build_name)
 
 desired_caps = {
-    "tunnel": True,
+    "tunnel": False,
     "tunnelName": os.getenv("LT_TUNNEL_NAME"),
     "deviceName": os.getenv("LT_DEVICE_NAME"),
     "platformName": os.getenv("LT_PLATFORM_NAME"),
