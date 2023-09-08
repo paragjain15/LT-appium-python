@@ -13,7 +13,7 @@ caps = {
     "tunnel": False,
     "tunnelName": "HelloTESTTUNNEL",
     # "deviceName": "Galaxy S23",
-    # "platformName": "android",
+    "platformName": "android",
     # "platformVersion": "13",
     "isRealMobile": True,
     "app": "prover",
