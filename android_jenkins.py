@@ -12,18 +12,11 @@ caps = {
     "w3c": True,
     "tunnel": True,
     "tunnelName": "HelloTESTTUNNEL",
-    # "deviceName": "Galaxy S23",
-    # "platformName": "android",
-    # "platformVersion": "13",
-    # "app": "prover",
-    # "tunnelName": os.getenv("LT_TUNNEL_NAME"),
     "deviceName": os.getenv("LT_DEVICE_NAME"),
     "platformName": os.getenv("LT_PLATFORM_NAME"),
     "platformVersion": os.getenv("LT_DEVICE_VERSION"),
     "app": os.getenv("LT_APP_ID"),
     "isRealMobile": True,
-    
-    
     "build": build_name,
     "name": "Sample Test - Python",
     "network": False,
