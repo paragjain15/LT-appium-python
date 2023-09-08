@@ -14,7 +14,7 @@ caps = {
     "platformName": "android",
     "platformVersion": "13",
     "isRealMobile": True,
-    "app": "lt://APP10160571901693466916292166",
+    "app": "prover",
     "build": build_name,
     "name": "Sample Test - Python",
     "network": False,
