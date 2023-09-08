@@ -11,7 +11,7 @@ caps = {
   "lt:options": {
     "w3c": True,
     "tunnel": True,
-    # "tunnelName": "HelloTESTTUNNEL",
+    "tunnelName": "HelloTESTTUNNEL",
     "deviceName": os.getenv("LT_DEVICE_NAME"),
     "platformName": os.getenv("LT_PLATFORM_NAME"),
     "platformVersion": os.getenv("LT_DEVICE_VERSION"),
