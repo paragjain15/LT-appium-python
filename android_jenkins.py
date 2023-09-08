@@ -10,7 +10,7 @@ caps = {
 
   "lt:options": {
     "w3c": True,
-    "tunnel": False,
+    "tunnel": True,
     # "tunnelName": "HelloTESTTUNNEL",
     # "deviceName": "Galaxy S23",
     # "platformName": "android",
